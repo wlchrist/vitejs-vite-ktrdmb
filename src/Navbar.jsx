@@ -1,11 +1,12 @@
 // src/Navbar.jsx
 import React from 'react';
 import './Navbar.css';
-
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar-brand"></div>
+      <div className="navbar-brand"> 
+      <img src= "./assets/svg-icons/icons8-bash-48.svg" className="logo-navbar" />
+      </div>
       <div className="navbar-menu-group">
         <ul className="navbar-menu">
           <li className="navbar-menu-item">

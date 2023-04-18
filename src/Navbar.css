@@ -17,7 +17,7 @@
   text-align: left;
   margin-right: 20px;
   display: flex;
-align-items: center;
+  align-items: center;
 }
 
 .navbar-menu {
@@ -39,6 +39,7 @@ align-items: center;
 .navbar-menu-item a {
   color: #fff;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .navbar-menu-item a:hover {
@@ -58,6 +59,7 @@ align-items: center;
 .navbar-menu-item-account a {
   color: #fff;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .navbar-account {
@@ -71,3 +73,7 @@ align-items: center;
   margin: 0;
 }
 
+.logo-navbar {
+  height: auto;
+  width: auto;
+}
