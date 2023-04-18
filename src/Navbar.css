@@ -43,7 +43,7 @@
 }
 
 .navbar-menu-item a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .navbar-menu-item-account {
@@ -53,7 +53,7 @@
 }
 
 .navbar-menu-item-account a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .navbar-menu-item-account a {
