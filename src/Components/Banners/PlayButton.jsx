@@ -5,7 +5,7 @@ const PlayButton = ({ onClick }) => {
   return (
     <center>
       <button className="play-button" onClick={onClick}>
-        Play Now
+        Play Crash
       </button>
     </center>
   );
