@@ -1,0 +1,17 @@
+.play-button {
+  display: block;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #333;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.play-button:hover {
+  opacity: 0.5;
+}

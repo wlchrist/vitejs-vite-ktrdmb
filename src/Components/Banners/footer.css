@@ -1,0 +1,19 @@
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+}
+
+.links {
+  transition: opacity 0.2s ease-in-out;
+}
+
+.links:hover {
+  opacity: 0.5;
+}
+
+.footer-div {
+  position: fixed;
+  padding-bottom: 50px;
+}

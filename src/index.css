@@ -25,6 +25,8 @@ a:hover {
 
 body {
   margin: 0;
+  font-family: monospace;
+  font-size: 1.35em;
   display: flex;
   place-items: center;
   min-width: 320px;

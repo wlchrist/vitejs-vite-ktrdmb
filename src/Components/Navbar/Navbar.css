@@ -9,6 +9,7 @@
   left: 0;
   right: 0;
   z-index: 1000;
+  height: 20px;
 }
 
 .navbar-brand {
@@ -39,7 +40,7 @@
 .navbar-menu-item a {
   color: #fff;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color 0.2s ease;
 }
 
 .navbar-menu-item a:hover {
@@ -59,7 +60,7 @@
 .navbar-menu-item-account a {
   color: #fff;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color 0.2s ease;
 }
 
 .navbar-account {
@@ -75,5 +76,10 @@
 
 .logo-navbar {
   height: auto;
-  width: auto;
+  width: 40px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.logo-navbar:hover {
+  opacity: 0.7;
 }

@@ -1,0 +1,24 @@
+.stats-banner-container {
+  position: absolute;
+  top: 370px; /* height of TopBanner */
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: #333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats-banner-container ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.stats-banner-container li {
+  margin: 0 60px;
+}
